@@ -15,11 +15,11 @@
 
         /* Style the header */
         header {
-          background-color: #666;
+          background-color: #0f3847;
           padding: 30px;
           text-align: center;
           font-size: 35px;
-          color: white;
+          color: rgb(241, 234, 234);
         }
 
         /* Create two columns/boxes that floats next to each other */
@@ -27,7 +27,7 @@
           float: left;
           width: 30%;
            
-          background: #ccc;
+          background: #58a1bb;
           padding: 20px;
         }
 
@@ -41,7 +41,7 @@
           float: left;
           padding: 20px;
           width: 70%;
-          background-color: #f1f1f1;
+          background-color: #fff;
         }
 
         /* Clear floats after the columns */
@@ -54,7 +54,7 @@
 
         /* Style the footer */
         footer {
-          background-color: #777;
+          background-color: #0f3847;
           padding: 10px;
           text-align: center;
           color: white;
@@ -90,19 +90,49 @@
 
             <ul>
                 <h3>Minhas Redes Sociais</h3>
-                <li><a href="https://www.linkedin.com/in/mariana-franco-4a8838241/">Linkedin</a></li>
-                <li><a href="https://github.com/MariFrancozz">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/mariana-franco-4a8838241/" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/MariFrancozz" target="_blank">Github</a></li>
             </ul>
 
+            <form method="post">
+
+              <h3>Formulário de contato</h3>
+              <div>
+                <lable for="nome">Nome</lable><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+              
+            <div>
+              <lable for="email">E mail</lable><br>
+              <input type="email" name="email" id="email" placeholder="Digite seu email.">
+            </div>  
+
+            <div>
+              <lable for="mensagem">Mensagens</lable><br>
+              <textarea name="mensagens" id="mensagens" rows="5" placeholder="Digite sua mensagem..."></textarea>
+            </div>
+
+            <div>
+              <input type="submit">
+            </div>
+
+            </form>
+
         </nav>
+        
 
         <article>
 
             <img style="height:auto;" alt="" src="https://avatars.githubusercontent.com/u/144246096?v=4" width="260" height="260" class="avatar avatar-user width-full border color-bg-default">
             <h3>Mariana Franco</h3>
             <p>Ex estudante de engenharia e entusiasta da programação.<br> Atualmente tenho me dedicado aos estudos de front end, ciências de dados e programação em nuvem.</p>
+            <p><strong>Quais linguagens estudo atualmente? </strong>Python, Java e JavaScript</p>
+            <p><strong>Qual areá da programação mais me interesse?</strong> Me chama a atenção o backend e a análise de dados. Porém, Achei importante retomar os estudos na areá do frontend pois quero saber e entender o comportamento da web como um todo.</p>
+            <p><strong>Qual areá estou estudando atualmente com mais enfasê?</strong> Tenho me dedicado ao desenvolvimento frontend, mas sempre buscando o entendimento da linguagem python para, assim que possível, estudar com mais afinco o desenvolvimento backend.</p>
 
         </article>
+
+        
 
     </section>
 
